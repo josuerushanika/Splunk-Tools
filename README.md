@@ -1,4 +1,5 @@
 # Splunk Tools
+
 Collection of Splunking Tools, SPL Code and Resources
 
 ![Splunk Logo](/splunk-logo.png)
@@ -20,7 +21,6 @@ Collection of Splunking Tools, SPL Code and Resources
 index=win_servers sourcetype=windows:security
 | table EventCode
 ```
-
 ### Find New Local Admin Accounts
 
 ```
